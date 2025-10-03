@@ -1,47 +1,50 @@
-📊 Sales Dashboard (Streamlit)
+# 📊 Sales Dashboard (Streamlit)
 
-Dashboard interaktif untuk menganalisis data penjualan menggunakan Python, Streamlit, Pandas, dan Plotly.
+Dashboard interaktif untuk menganalisis data penjualan menggunakan **Python**, **Streamlit**, **Pandas**, dan **Plotly**.  
 Project ini menampilkan tren penjualan, performa berdasarkan region, dan visualisasi lainnya secara real-time.
 
+---
 
-🚀 Fitur
+## 🚀 Fitur
+- Filter data berdasarkan **Region** dan **Tanggal**
+- Grafik penjualan harian (**line chart**)
+- Perbandingan penjualan antar region (**bar chart**)
+- Ringkasan statistik total penjualan
 
-Filter data berdasarkan Region dan Tanggal
+---
 
-Grafik penjualan harian (line chart)
-
-Perbandingan penjualan antar region (bar chart)
-
-Ringkasan statistik total penjualan
-
-
-Struktur Project
-
-├── app.py              # Main dashboard Streamlit
-├── sales_data.csv      # Contoh dataset penjualan
-├── requirements.txt    # Dependency project
-└── README.md           # Dokumentasi project
+## 📂 Struktur Project
+├── app.py # Main dashboard Streamlit
+├── sales_data.csv # Contoh dataset penjualan
+├── requirements.txt # Dependency project
+└── README.md # Dokumentasi project
 
 
-Buat virtual environment (opsional tapi disarankan):
+---
 
+## ⚙️ Instalasi
+
+### 1. Buat virtual environment (opsional tapi disarankan)
+```bash
+# Windows
 python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate # Mac/Linux
+venv\Scripts\activate
+
+# Mac/Linux
+python -m venv venv
+source venv/bin/activate
 
 
-Install dependencies:
-
+Install dependencies
 pip install -r requirements.txt
 
 
-Jalankan aplikasi Streamlit:
-
-streamlit run app.py atau python -m streamlit run app.py
-
+Jalankan aplikasi Streamlit
+streamlit run app.py
+# atau
+python -m streamlit run app.py
 
 📊 Contoh Dataset (sales_data.csv)
-
 Date,Region,Sales
 2024-01-01,North,1200
 2024-01-02,South,800
@@ -53,5 +56,7 @@ Date,Region,Sales
 🔮 Pengembangan Lanjutan
 
 Menambahkan prediksi penjualan dengan Machine Learning
-Integrasi database (MySQL/PostgreSQL)
+
+Integrasi database (MySQL / PostgreSQL)
+
 Deploy ke Streamlit Cloud / Heroku
