@@ -33,28 +33,30 @@ venv\Scripts\activate
 # Mac/Linux
 python -m venv venv
 source venv/bin/activate
-
-
-Install dependencies
+```
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-
-Jalankan aplikasi Streamlit
+### 3. Jalankan aplikasi Streamlit
+```bash
 streamlit run app.py
 # atau
 python -m streamlit run app.py
-
+```
 📊 Contoh Dataset (sales_data.csv)
+```
 Date,Region,Sales
 2024-01-01,North,1200
 2024-01-02,South,800
 2024-01-03,East,950
 2024-01-04,West,1100
 2024-01-05,North,1400
-
+```
 
 🔮 Pengembangan Lanjutan
-
+```
 Menambahkan prediksi penjualan dengan Machine Learning
 
 Integrasi database (MySQL / PostgreSQL)
